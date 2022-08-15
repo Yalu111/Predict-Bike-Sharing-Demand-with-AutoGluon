@@ -40,13 +40,13 @@ TODO:
 
 TODO: 
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](/model_test_score.png)
 
 ## Summary
 TODO: In the model_train_score line plot, it shows the best model in hpo performs worse than the best model in add_features_model. However, in the model_test_score line plot, it shows the best model in hpo performs better than the best model in add_features_model. A possible reason could be the add_features model is overfitting, whereas hpo has penalty parameters to prevent overfitting, such as drop_out probality. In summary, even AutoGluon is a grate AutoML tool, it's better be used as a starting point of a ML project and improve model performance through hyperparameter tuning. Apart from that, we can see the importance of performing data engineering in a ML project.
